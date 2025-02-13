@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Arithmetic operator= 
+        //+,-,*,/,%,**,++,--
+        // let a = prompt("Enter a:")
+        // let a1 = parseInt(a)
+        // let b= parseInt(prompt("Enter b:"))
+        // document.write('<br> Addition is '+(a1+b))
+        //parseFloat()
+        //% modulus -- reminder
+        // document.write('<br> Modulus is '+(a1%b))
+        //5^2=5*5 5^3 power function
+        // const pi=3.14
+        // let r = 100
+        // let area = pi*r**2 //r*r  r**3 = r*r*r
+        // document.write('<br> Area of circle is '+area)
+        let p = 11
+        document.write('<br> p is '+p)
+        let b = p++ //postfix
+        document.write('<br> p is '+p)
+        document.write('<br> b is '+b)
+        b = ++p //prefix
+        document.write('<br> p is '+p)
+        document.write('<br> b is '+b)
+//2)Assignment operator = +=,-=,*=,/=,%=,**=
+        
+        b+=10 //b = b+10
+        document.write('<br> b is '+b)
+
+        b -=5
+        document.write('<br> b is '+b)
+
+        b *=2
+        document.write('<br> b is '+b)
+
+        //relational operator == <,>,<=,>=,==,!=,===,!==
+        //b=36
+        let a ="36"
+        document.write('<br> a > b is '+(a>b))
+        document.write('<br> a < b is '+(a<b))
+        document.write('<br> a >= b is '+(a>=b))
+        document.write('<br> a <= b is '+(a<=b))
+        document.write('<br> a == b is '+(a==b))
+        document.write('<br> a === b is '+(a===b))
+        //typeof 
+        document.write('<br> numeric type 210 is '+typeof(210))
+        document.write('<br> numeric type 21.45 is '+typeof(21.45))
+        document.write('<br> numeric type 210 is '+typeof("210"))
+        document.write('<br> numeric type 210 is '+typeof('p'))
+        b = null
+        document.write('<br> numeric type 210 is '+typeof(b))
+        document.write('<br> numeric type 210 is '+typeof([]))
+        document.write('<br> numeric type 210 is '+typeof({}))
+        document.write('<br> numeric type 210 is '+typeof(true))
+        
+        //logical operator -- &&,||,!
+        let x=25
+        let y = 150
+        let z = 30
+        document.write('<br> x is '+(x>y && x>z))
+        document.write('<br> x is '+(x>y || x>z))
+        document.write('<br> x is '+(x>y))
+        document.write('<br> x is '+!(x>y))
+        
+        // ternary -- if_else ()?true:false
+        let ans = (x>y)?"x is max ":"y is max"
+        document.write('<br> '+ans)
+        
+    </script>
+</body>
+</html>
