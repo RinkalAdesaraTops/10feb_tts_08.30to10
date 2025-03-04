@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [1,2,3,4,5]
+        let res = arr.map((i,j)=>{
+            return i*2
+        })
+        document.write('<br> '+arr)
+        document.write('<br> '+res)
+        res = arr.forEach((a,b)=>{
+            return a*10
+        })
+        document.write('<br> '+res)
+// diff b/w foreach  loop & map function
+//element traverse
+//foreach - cant return any value
+//map - returns array
+//2) Filter
+let ar = [20,25,43,24,35,25]
+let search = ar.find((i)=>{
+    return i == 25
+})
+console.log(search);
+//filter - always return array
+//find = return only one value    
+//includes - returns only boolean value true or false
+let r1 = ar.includes(25) 
+document.write('<br> '+r1)
+ 
+    </script>
+</body>
+</html>

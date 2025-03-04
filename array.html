@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [10,20,30,40,50]
+        // document.write('<br> '+arr[0])
+        // document.write('<br> '+arr[3])
+        // for(let i=0;i<arr.length;i++){
+        //     document.write('<br> '+arr[i])            
+        // }
+        // for(var x in arr){ //key-value pair
+        //     document.write('<br> '+x+ " position "+arr[x])           
+        // }
+        // for(var x of arr){ //only array - or value
+        //     document.write('<br> '+x)           
+        // }
+        arr.forEach((i,index)=>{
+            document.write('<br> '+i + "---"+index)            
+        })
+    </script>
+</body>
+</html>
