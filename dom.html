@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo"></div>
+    <div id="demo1" class="abc"></div>
+    <p class="abc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus perspiciatis mollitia dolorum assumenda fuga omnis libero ullam, officiis eveniet neque reprehenderit ea dolor suscipit rem tempore, nam similique. Possimus, voluptatum.
+    </p>
+    <p>omnis libero ullam, officiis eveniet neque reprehenderit ea dolor suscipit rem tempore, nam similique. Possimus, voluptatum.
+    </p>
+    <p class="abc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus perspiciatis mollitia 
+    </p>
+    <input type="text" name="uname" id="uname">
+    <script>
+        document.getElementById('demo').innerHTML = "<b>Hello</b>"
+        document.getElementById('demo1').innerText = "<b>Hello</b>"
+        document.getElementById('demo').style.color = "red"
+        document.getElementById('demo').style.backgroundColor = "yellowgreen"
+        // let a = document.getElementsByTagName("p")
+        // let a = document.getElementsByName("p")
+
+        let a = document.getElementsByClassName("abc")
+        // console.log(a);
+        let b=document.getElementsByName("uname")
+        console.log(b);
+        b[0].value = "Hellooo"
+        
+        for(let i=0;i<a.length;i++){
+            if((i+1)%2==0){
+                a[i].style.color = "green"
+
+            }else {
+                a[i].style.color = "purple"
+
+            }
+        }
+        // document.getElementsByTagName("p")[0].style.color = "blue"
+
+    </script>
+</body>
+</html>
