@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //polymorphism = one name many forms
+        class abc{ //base super parent
+            constructor(){
+                console.log("parent constructor called..");               
+            }
+            add(){
+                console.log("Add - parent called...");
+                
+            }
+        }
+        class xyz extends abc{ //derived sub child
+            constructor(){
+                super()
+                console.log("child constructor called..");
+            } 
+            add(){
+                super.add()
+                console.log("child add fun called..");
+                
+            }  
+            minus(){
+                console.log("minus called...");
+            
+            }
+        }
+        let obj = new xyz()
+        obj.add()
+        obj.minus()
+    </script>
+</body>
+</html>
