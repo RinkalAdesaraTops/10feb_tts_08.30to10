@@ -7,6 +7,8 @@ import BootstrapExample from './BootstrapExample'
 import MaterialUIExample from './MaterialUIExample'
 import StyleExample from './StyleExample'
 import ModuleExample from './ModuleExample'
+import Crud from './Crud'
+import UserCrud from './UserCrud'
 function App() {
   return (
     <>
@@ -16,7 +18,9 @@ function App() {
       {/* <BootstrapExample /> */}
       {/* <MaterialUIExample /> */}
       {/* <StyleExample /> */}
-      <ModuleExample />
+      {/* <ModuleExample /> */}
+      {/* <Crud /> */}
+      <UserCrud />
     </>
   )
 }
