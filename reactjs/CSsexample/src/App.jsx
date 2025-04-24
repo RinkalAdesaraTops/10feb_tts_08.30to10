@@ -9,6 +9,10 @@ import StyleExample from './StyleExample'
 import ModuleExample from './ModuleExample'
 import Crud from './Crud'
 import UserCrud from './UserCrud'
+import CrudRevision from './CrudRevision'
+import UseRefExample from './UseRefExample'
+import ContextExample from './ContextExample'
+import UseContextExample from './UseContextExample'
 function App() {
   return (
     <>
@@ -20,7 +24,11 @@ function App() {
       {/* <StyleExample /> */}
       {/* <ModuleExample /> */}
       {/* <Crud /> */}
-      <UserCrud />
+      {/* <UserCrud /> */}
+      {/* <CrudRevision /> */}
+      {/* <UseRefExample /> */}
+      {/* <ContextExample /> */}
+      <UseContextExample />
     </>
   )
 }

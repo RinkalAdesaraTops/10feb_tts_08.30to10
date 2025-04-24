@@ -24,9 +24,7 @@ const UserCrud = () => {
                 info
             ])
         }
-        
-
-        setInfo({
+      setInfo({
             name:'',
             age:''
         })
@@ -48,7 +46,6 @@ const UserCrud = () => {
       })
       setData(res)
     }
-    
     const edtData = (id) => {
         console.log(id);     
         let res = data.find((i,index)=>{
@@ -58,7 +55,6 @@ const UserCrud = () => {
         setInfo(res)
         setId(id)
     }
-
   return (
     <div>
         <form action="#" method='post' onSubmit={savedata}>
@@ -70,35 +66,34 @@ const UserCrud = () => {
         <br /><br />
         <input type="submit" value="Submit Data" />
         </form ><br /><br />
-      <table border={'2'}>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
-            {
-                data.map((i,index)=>{
-                    return(
-                        <tr>
-                            <td>{index+1}</td>
-                            <td>{i.name}</td>
-                            <td>{i.age}</td>
-                            <td>
-                                <button onClick={()=>edtData(index)}>Edit</button>
-                                <button onClick={()=>delData(index)}>Delete</button>
-                            </td>
-                        </tr>
-                    )
-                })
-            }
-        </tbody>
-      </table>
+        <table border={'2'}>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {
+                    data.map((i,index)=>{
+                        return(
+                            <tr>
+                                <td>{index+1}</td>
+                                <td>{i.name}</td>
+                                <td>{i.age}</td>
+                                <td>
+                                    <button onClick={()=>edtData(index)}>Edit</button>
+                                    <button onClick={()=>delData(index)}>Delete</button>
+                                </td>
+                            </tr>
+                        )
+                    })
+                }
+            </tbody>
+        </table>
     </div>
   )
 }
-
 export default UserCrud
