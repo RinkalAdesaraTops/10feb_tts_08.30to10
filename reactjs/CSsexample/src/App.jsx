@@ -13,6 +13,8 @@ import CrudRevision from './CrudRevision'
 import UseRefExample from './UseRefExample'
 import ContextExample from './ContextExample'
 import UseContextExample from './UseContextExample'
+import UseMemoExample from './UseMemoExample'
+import UsecallbackRevision from './UsecallbackRevision'
 function App() {
   return (
     <>
@@ -28,7 +30,9 @@ function App() {
       {/* <CrudRevision /> */}
       {/* <UseRefExample /> */}
       {/* <ContextExample /> */}
-      <UseContextExample />
+      {/* <UseContextExample /> */}
+      {/* <UseMemoExample /> */}
+      <UsecallbackRevision />
     </>
   )
 }
