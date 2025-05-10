@@ -1,0 +1,4 @@
+redux -- state management library
+action -- task perform add minus
+store - database 
+reducer --- logic - +1 -1
