@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = ["gdfgdf","yuy","sdfg","werewr","jklm"]
+        let arr2 = ["PQER","sdg","erytre"]
+        //spread operator - ...
+        let merge_arr = ["sdtur",...arr,...arr2]
+        document.write('<br> '+merge_arr)
+        //destructuring
+        // const [a,b,c,d,e] = arr
+        //...rest of operator
+         const [a,b,...c] = arr
+         const obj = {
+            name:"dfgdf",
+            age:24,
+            salary:34555,
+            lastname:"sfgsd"
+         }
+         //obj.name obj.age
+         const {name,age,salary,lastname} = obj
+        console.log(name);
+        console.log(b);
+        console.log(c);
+        
+        
+    </script>
+</body>
+</html>

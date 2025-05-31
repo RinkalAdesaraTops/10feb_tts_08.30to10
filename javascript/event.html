@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demo"></div>
+   
+    <script>
+        let a = document.getElementById('demo')
+        let btn = document.createElement("button")
+        console.log(btn);
+        let txt = document.createTextNode("Add Button")
+        btn.appendChild(txt)
+        a.append(btn)
+        btn.addEventListener('click',()=>{
+            alert("Hello...")
+        })
+        //ul --> li task
+    </script>
+</body>
+</html>

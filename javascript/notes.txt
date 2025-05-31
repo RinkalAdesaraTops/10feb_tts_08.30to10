@@ -1,0 +1,77 @@
+let arr = [10,20,30,40,50]
+for..in & for..of 
+for(let x in arr){
+Use for object(key-value pair)
+	x(index) -- arr[x]-value/element
+}
+for(let x of arr){
+Use for array
+	x - element/value 
+}
+map 
+-->create a copy of array
+-->return new array
+-->perform any action to element 
+let res = arr.map((i,index)=>{
+	return i*2
+})
+foreach - is loop 
+doesn't create new array
+doesn't return any value
+just use to perform some action
+arr.forEach((i,index)=>{
+	console.log(i*2)
+})
+let var const 
+let -- cant redeclare but we can reassign - update/change value
+let a=25
+let a=35 
+a=35
+
+const - fixed value - cant redeclare & reassign
+const pi=3.14
+var - redeclare & reassign
+var a=68
+var a = 75
+
+operator list
+1)arithmetic operator- +,-,*,/,%,++,--
+
+2)Short hand/Assignment - +=,-=,*=,/=,%=
+
+3)ternary - ?:
+
+4)Logical - &&,||,!
+
+5)Relational - <,>,<=,>=,==,!=,===,!==
+
+6)Typeof - 
+
+== & ===
+
+while,do_while & for loop
+while & for - entry controlled loop
+do_while - exit
+array function list 
+push
+pop
+unshift
+shift
+slice
+splice
+concat
+map 
+filter
+reduce
+reduceRight
+find
+includes
+
+string func
+
+DOM
+
+setInterval & setTimeout 
+
+
+
