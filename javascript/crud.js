@@ -79,5 +79,7 @@ const editData = (id)=>{
     document.frm.salary.value = res.salary
     document.frm.userid.value = res.id   
 }
+console.log(ab);
+let ab =78
 
 dispData()

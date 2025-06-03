@@ -1,0 +1,10 @@
+Q-1 what is let,var & const
+Q-2 diff b/w for..in & for..of loop
+Q-3 diff b/w slice & splice
+Q-4 diff b/w foreach & map
+Q-5 List down operators in JS
+Q-6 Diff b/w == & ===
+Q-7 Diff b/w while & do_while & for loop
+Q-8 Explain Push,pop, shift & unshift function
+Q-9 Explain filter,find,includes function
+Q-10 What is javascript?? server side or client side
