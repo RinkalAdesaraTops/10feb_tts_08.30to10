@@ -1,5 +1,5 @@
 {
-  "name": "reduxexample",
+  "name": "firebaseexample",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,12 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^2.8.2",
+    "firebase": "^11.8.1",
+    "firebaseexample": "file:",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-redux": "^9.2.0",
-    "redux": "^5.0.1",
-    "reduxexample": "file:"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

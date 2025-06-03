@@ -11,7 +11,8 @@ function App() {
     <>
       <h1>Redux Example</h1>
       {/* <CounterComponent /> */}
-      <UserCrudRedux />
+      {/* <UserCrudRedux /> */}
+      <CounterComponent />
     </>
   )
 }
